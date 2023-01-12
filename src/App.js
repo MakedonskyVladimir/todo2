@@ -1,9 +1,14 @@
 import './App.css';
+import AddTodo from './components/AddTodo/AddTodo';
+import Header from './components/Header/Header';
+import TodoList from './components/TodoList/TodoList';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <h1>Список дел</h1>
+      <Header />
+      <AddTodo />
+      <TodoList />
     </div>
   );
 }
